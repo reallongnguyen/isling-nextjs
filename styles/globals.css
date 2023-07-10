@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "antd/dist/reset.css";
+
+a {
+  @apply no-underline
+}
+
+.container-md {
+  @apply max-w-screen-md mx-auto
+}
